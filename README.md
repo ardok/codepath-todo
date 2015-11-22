@@ -31,13 +31,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/Md9GZD0.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 * It was tricky to figure out how to properly manage edit and/or create to get reflected in the RecyclerView
+* Managing RecyclerView item position is hell. I'm not sure whether I'm doing it the right away. I feel like sometimes my app does not edit / remove the item correctly due to incorrect position. So many ways to get the position of the item but I don't know which one to use exactly.
 * I don't know how to use UUID instead of normal int ID
 
 ## License
